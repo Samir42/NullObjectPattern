@@ -25,11 +25,11 @@ public class NullUser: IUser
 
 public void SaveUser(User userToSave)
 {
-  if (userToSave == null) throw new ArgumentNullException(nameof(userToSave));
-  if (userToSave.FirstName == null) throw new ArgumentNullException(nameof(userToSave.FirstName));
-  if (userToSave.LastName == null) throw new ArgumentNullException(nameof(userToSave.LastName));
+  //if (userToSave == null) throw new ArgumentNullException(nameof(userToSave));
+  //if (userToSave.FirstName == null) throw new ArgumentNullException(nameof(userToSave.FirstName));
+  //if (userToSave.LastName == null) throw new ArgumentNullException(nameof(userToSave.LastName));
 
-  // Save user...
+  // Save User without checking for properties if they are null
 }
 
 
